@@ -40,5 +40,5 @@ var apiRoutes = express.Router();
 require('./routes/route_secure')(apiRoutes, jwt);
 app.use('/faleopreco-secure', apiRoutes);
 
-app.listen(3000);
+app.listen(8080);
 console.log('Listening on port 3000...');
